@@ -6,10 +6,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
-@Setter
-@ToString
 @Entity
+@Data
 @Table(name = "customers")
 public class Customer {
     @Id
